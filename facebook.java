@@ -30,7 +30,7 @@ public class facebook {
 			    textInput.setValueAttribute(user);
 			    HtmlPasswordInput passInput = (HtmlPasswordInput)page.getElementById("pass");
 			    passInput.setValueAttribute(pass);
-			    HtmlSubmitInput submitBtn = (HtmlSubmitInput)page.getElementById("loginbutton").getFirstChild();
+			    HtmlSubmitInput submitBtn = (HtmlSubmitInput)page.getElementById("loginbutton").getFirstChild(); // error here
 			    page = submitBtn.click();
 			    
 			    System.out.println("running7");
